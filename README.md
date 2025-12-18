@@ -747,7 +747,7 @@ With respect to payloads, the Telemetry **SenML+JSON format is used for telemetr
 - **Resource URI**: `/heart_rate`
 - **if:** `core.s`
 - **rt:** `io.treadmill.heart_rate`
-- **obs:**: true
+- **obs:** true (to allow observe/notify mechanism for live updates)
 - **Telemetry SenML+JSON Payload**:
   ```json
   [
@@ -765,6 +765,7 @@ With respect to payloads, the Telemetry **SenML+JSON format is used for telemetr
 - **Resource URI**: `/speed`
 - **if:** `core.a`
 - **rt:** `io.treadmill.speed`
+- **obs:** true (to allow observe/notify mechanism for live updates)
 - **Telemetry SenML+JSON Payload**:
   ```json
   [
@@ -791,6 +792,7 @@ With respect to payloads, the Telemetry **SenML+JSON format is used for telemetr
 - **Resource URI**: `/incline`
 - **if:** `core.a`
 - **rt:** `io.treadmill.incline`
+- **obs:** true (to allow observe/notify mechanism for live updates)
 - **Telemetry SenML+JSON Payload**:
   ```json
   [
